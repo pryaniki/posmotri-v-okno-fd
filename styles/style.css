@@ -99,3 +99,9 @@ ol {
   overflow-y: scroll;
   height: 298px;
 }
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
