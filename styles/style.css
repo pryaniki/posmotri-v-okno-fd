@@ -110,3 +110,10 @@ ol {
   display: flex;
   align-items: start;
 }
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 104px;
+  object-fit: contain;
+  object-position: center;
+}
