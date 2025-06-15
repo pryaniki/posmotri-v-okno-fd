@@ -68,6 +68,15 @@ ol {
   grid-area: result;
 }
 
+.result__video-container {
+  width: 712px;
+  height: 386px;
+}
+
+.result__video {
+  width: 100%;
+}
+
 .search-form {
   display: flex;
   justify-content: space-between;
