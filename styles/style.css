@@ -76,3 +76,8 @@ ol {
 .content__details {
   grid-area: details;
 }
+
+.content__list-container {
+  overflow-y: scroll;
+  height: 298px;
+}
