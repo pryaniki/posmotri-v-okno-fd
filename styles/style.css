@@ -85,6 +85,12 @@ ol {
   align-items: start;
 }
 
+.search-form__fieldset-title {
+  /* font-weight: 500; */
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
 .content__details {
   grid-area: details;
   width: 100%;
