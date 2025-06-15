@@ -52,3 +52,21 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
 }
+
+.content {
+  width: 1140px;
+  display: grid;
+  align-items: end;
+  grid-template: 1fr / 710px 1fr;
+  column-gap: 30px;
+  grid-template-areas:
+  "result details";
+}
+
+.result {
+  grid-area: result;
+}
+
+.content__details {
+  grid-area: details;
+}
