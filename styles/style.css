@@ -71,6 +71,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
+  align-items: start;
 }
 
 .content__details {
