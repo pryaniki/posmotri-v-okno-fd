@@ -68,6 +68,11 @@ ol {
   grid-area: result;
 }
 
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content__details {
   grid-area: details;
 }
