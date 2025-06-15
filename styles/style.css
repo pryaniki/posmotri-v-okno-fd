@@ -35,6 +35,12 @@ fieldset {
   padding: 0;
 }
 
+h1,
+h2 {
+  font-family: Oswald;
+  font-weight: 700;
+}
+
 ul,
 ol {
   list-style: none;
@@ -97,8 +103,6 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
-  font-weight: 700;
   font-size: 75px;
   margin-bottom: 26px;
   text-transform: uppercase;
@@ -119,9 +123,19 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
 .content__card-link {
   text-decoration: none;
   color: #fff;
+}
+
+.content__video-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  width: 196px;
+  white-space: nowrap;
+  font-size: 30px;
 }
 
 .content__video-card {
