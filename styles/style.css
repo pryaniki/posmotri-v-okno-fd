@@ -105,3 +105,8 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+}
