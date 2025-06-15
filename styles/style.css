@@ -119,6 +119,10 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
 
 .content__video-card {
   display: flex;
