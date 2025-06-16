@@ -96,6 +96,11 @@ ol {
   margin-bottom: 6px;
 }
 
+.search-form__checkbox-list {
+  display: flex;
+  gap: 16px;
+}
+
 .content__details {
   grid-area: details;
   width: 100%;
