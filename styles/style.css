@@ -143,6 +143,15 @@ ol {
   align-items: start;
 }
 
+.content__video-card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-height: 16px;
+  height: 64px;
+}
+
 .content__video-card-thumbnail {
   width: 194px;
   height: 104px;
