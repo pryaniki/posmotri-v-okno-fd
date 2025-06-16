@@ -95,6 +95,14 @@ ol {
   border: none;
 }
 
+.search-form__fieldset:nth-child(1) {
+  width: 226px;
+}
+
+.search-form__fieldset:nth-child(2) {
+  width: 212px;
+}
+
 .search-form__fieldset-title {
   font-size: 18px;
   margin-bottom: 6px;
@@ -103,6 +111,11 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 16px;
+}
+
+.search-form__label {
+  display: flex;
+  width: fit-content;
 }
 
 .content__details {
