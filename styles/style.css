@@ -136,6 +136,9 @@ ol {
   width: 196px;
   white-space: nowrap;
   font-size: 30px;
+  line-height: 100%;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .content__video-card {
