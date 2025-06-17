@@ -67,7 +67,6 @@ ol {
   width: 1140px;
   column-gap: 30px;
   align-items: end;
-
 }
 
 .result {
@@ -88,7 +87,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: end;
 }
 
 .search-form__fieldset {
@@ -100,6 +99,7 @@ ol {
 }
 
 .search-form__fieldset:nth-child(2) {
+  align-self: start;
   width: 212px;
 }
 
