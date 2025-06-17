@@ -135,7 +135,6 @@ ol {
   gap: 6px;
 }
 
-
 .search-form__pseudo-checkbox {
   display: flex;
   border: 1px solid #fff;
@@ -164,7 +163,7 @@ ol {
 }
 
 .search-form__label:hover {
-  cursor: pointer; 
+  cursor: url(../images/pointer.svg), pointer; 
 }
 
 .search-form__label:focus {
