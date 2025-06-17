@@ -74,6 +74,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 712px;
   height: 386px;
 }
@@ -225,6 +226,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   overflow-y: scroll;
   height: 298px;
 }
