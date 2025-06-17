@@ -174,6 +174,39 @@ ol {
   outline: 2px solid #fff;
 }
 
+.button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: inherit;
+  font-weight: 700;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  cursor: url(../images/pointer.svg), pointer; 
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.button:active {
+  background-color: #545050;
+  text-decoration: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+}
+
 .content__details {
   grid-area: details;
   width: 100%;
@@ -242,6 +275,13 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+}
+
+.more-button {
+  width: 390px;
+  height: 34px;
+  margin: 2px;
+  margin-top: 30px;
 }
 
 .visually-hidden {
