@@ -108,6 +108,15 @@ ol {
   margin-bottom: 6px;
 }
 
+.search-form__textfield {
+  border: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width: 212px;
+  color: #fff;
+  background-color: transparent;
+}
+
 .search-form__checkbox-list {
   display: flex;
   gap: 16px;
