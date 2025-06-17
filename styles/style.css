@@ -77,12 +77,14 @@ ol {
   position: relative;
   width: 712px;
   height: 386px;
+  margin-bottom: 16px;
+
 }
 
 .result__video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .search-form {
