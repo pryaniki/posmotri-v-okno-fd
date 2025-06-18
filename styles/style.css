@@ -148,6 +148,21 @@ ol {
   display: flex;
   align-items: center;
   gap: 6px;
+  width: fit-content;
+  padding: 2px;
+  outline: none;
+}
+
+.search-form__label:hover {
+  cursor: url(../images/pointer.svg), pointer; 
+}
+
+.search-form__label:focus {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible)  {
+  outline: 2px solid #fff;
 }
 
 .search-form__pseudo-checkbox {
@@ -168,25 +183,6 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
-}
-
-.search-form__label {
-  display: flex;
-  width: fit-content;
-  padding: 2px;
-  outline: none;
-}
-
-.search-form__label:hover {
-  cursor: url(../images/pointer.svg), pointer; 
-}
-
-.search-form__label:focus {
-  outline: none;
-}
-
-.search-form__label:has(:focus-visible)  {
-  outline: 2px solid #fff;
 }
 
 .button {
