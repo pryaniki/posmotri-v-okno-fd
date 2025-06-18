@@ -161,10 +161,6 @@ ol {
   text-decoration-thickness: 1px;
 }
 
-.search-form__label:focus {
-  outline: none;
-}
-
 .search-form__label:has(:focus-visible)  {
   outline: 2px solid #fff;
 }
