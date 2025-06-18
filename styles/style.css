@@ -154,14 +154,17 @@ ol {
 
 .search-form__label:hover {
   cursor: url(../images/pointer.svg), pointer; 
-  text-decoration-line: underline;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
 }
 
 .search-form__label:has(:focus-visible)  {
   outline: 1px solid #fff;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .search-form__pseudo-checkbox {
