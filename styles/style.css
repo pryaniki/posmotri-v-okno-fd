@@ -239,7 +239,7 @@ ol {
 
 .content__list-container {
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 298px;
 }
 
