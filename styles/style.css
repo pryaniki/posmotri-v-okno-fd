@@ -258,22 +258,6 @@ ol {
   padding: 0 3px;
 }
 
-.content__list-item:hover {
-  text-decoration-line: underline;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-}
-
-.content__list-item:focus {
-  appearance: none;
-  outline: none;
-}
-
-.content__list-item:focus-visible {
-  outline: 1px solid #fff;
-}
-
 .content__card-link_current {
   background-color: #545050;
 }
@@ -282,6 +266,22 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link:hover {
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.content__card-link:focus {
+  appearance: none;
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
 }
 
 .content__video-card {
