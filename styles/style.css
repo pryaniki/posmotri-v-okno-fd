@@ -46,6 +46,15 @@ ol {
   list-style: none;
 }
 
+::placeholder {
+  color: rgba(255, 255, 255, 0,7);
+  /* opacity: 0.7; */
+  /* font-size: inherit; */
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -107,8 +116,11 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-size: 18px;
   margin-bottom: 6px;
+  /* font-family: 'Fira Sans Condensed', sans-serif; */
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .search-form__textfield {
@@ -117,6 +129,7 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   width: 226px;
+  padding: 4px 0;
   color: #fff;
   background-color: transparent;
   outline:none;
@@ -181,7 +194,9 @@ ol {
   border: 1px solid #fff;
   background-color: transparent;
   color: inherit;
+  font-family: inherit;
   font-weight: 700;
+  font-size: inherit;
 }
 
 .button:focus {
